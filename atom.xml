@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>风月的博客</title>
+  
+  <subtitle>风月的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://fengyue1.top/"/>
+  <updated>2022-06-06T06:37:43.282Z</updated>
+  <id>https://fengyue1.top/</id>
+  
+  <author>
+    <name>风月</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="https://fengyue1.top/2022/06/06/my-new-post/"/>
+    <id>https://fengyue1.top/2022/06/06/my-new-post/</id>
+    <published>2022-06-06T06:37:43.000Z</published>
+    <updated>2022-06-06T06:37:43.282Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://fengyue1.top/2022/06/06/hello-world/"/>
+    <id>https://fengyue1.top/2022/06/06/hello-world/</id>
+    <published>2022-06-06T03:41:03.000Z</published>
+    <updated>2022-06-07T08:17:36.500Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="软件安装与配置" scheme="https://fengyue1.top/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+    
+    
+      <category term="Hexo" scheme="https://fengyue1.top/tags/Hexo/"/>
+    
+      <category term="Github" scheme="https://fengyue1.top/tags/Github/"/>
+    
+      <category term="博客" scheme="https://fengyue1.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
