@@ -285,7 +285,7 @@ header .side-nav .mobile-head {
 }
 
 header .side-nav .mobile-head img {
-    margin-top: 15px;
+    margin-top: 0px;
     /* 调整移动端头像位置，原值 30px; */
     width: 75px;
     height: 75px;
