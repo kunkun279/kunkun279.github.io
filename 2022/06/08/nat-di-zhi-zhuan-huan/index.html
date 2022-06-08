@@ -6,10 +6,13 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, CDUTCM  风月 Network Security 计算机网络">
+    <meta name="keywords" content="NAT转换, CDUTCM  风月 Network Security 计算机网络">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="description" content="﻿NAT地址转换现有的网络体系中，我们大多使用ipv4地址进行上网操作，ipv4最大地址为2^32为了便于对IP地址进行管理， 根据IPv4地址的第一个字节，IPv4地址可以分为以下五类。
+A类：0~127
+B类：128~191
+C类：19">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +20,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hello World | 风月的博客</title>
+    <title>NAT转换 | 风月的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -616,13 +619,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hello World
+                        NAT转换
                     </div>
                 </div>
             </div>
@@ -732,33 +735,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Hexo/" target="_blank">
-                                <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
-                            <a href="/tags/Github/" target="_blank">
-                                <span class="chip bg-color">Github</span>
-                            </a>
-                        
-                            <a href="/tags/博客/" target="_blank">
-                                <span class="chip bg-color">博客</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fa fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/软件安装与配置/" class="post-category" target="_blank">
-                                软件安装与配置
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -766,7 +748,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-06-06
+                    2022-06-08
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -780,14 +762,14 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        125
+                        656
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        2 分
                     </div>
                     
                 
@@ -804,15 +786,19 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+                <p>﻿<strong>NAT地址转换</strong><br>现有的网络体系中，我们大多使用ipv4地址进行上网操作，ipv4最大地址为2^32<br>为了便于对IP地址进行管理， 根据IPv4地址的第一个字节，IPv4地址可以分为以下五类。</p>
+<p>A类：0~127</p>
+<p>B类：128~191</p>
+<p>C类：192~223</p>
+<p>D类：224~239，组播地址</p>
+<p>E类：240~254，保留为研究测试使用</p>
+<p>其中私有地址空间为<br><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20210129113120398.png" alt="在这里插入图片描述">私有地址无法直接访问公网</p>
+<p>为了节省紧缺的ipv4地址空间，我们通常采用NAT    地址转换技术<br>NAT分为以下三类：<br><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20210129113301349.png" alt="在这里插入图片描述"><br>以下是NAT转换中涉及的名词<br><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20210129113517270.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>NAT会在路由器中生成一张NAT表，在转换时路由器就是通过这张表来转换私有地址的。</p>
+<p>1.静态NAT<br>静态NAT就是在内网用户访问外网时，将内网用户的私有地址转换为公网地址，一个内网用户就要对应一个公网地址，这对于节省ipv4地址意义不大，所以我们经常将静态NAT用在内网中供外网访问的服务器上。<br>具体配置流程如下：<br><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20210129114341199.png" alt="在这里插入图片描述"><br>2.动态NAT<br>动态NAT与静态NAT一样，一个内网用户对应一个公网地址，但不同的是，动态NAT中，我们采用NAT地址池，用户在访问外网时会用地址池动态的获取公网地址。<br>具体配置流程如下：<br><img src="https://img-blog.csdnimg.cn/20210129114616866.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70" alt="
+"><br>值得注意的是在上述配置流程中我们采用了ACL来指定内网中可以访问外网的用户地址段。这就是ACL 的第二个作用。</p>
+<p>3.端口复用<br>端口复用我们也称他为PAT，即端口地址转换<br><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20210129115154225.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>具体配置流程如下：<br><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20210129115239766.png" alt="在这里插入图片描述"></p>
+<p>在配置PAT时，首先我们要配置允许访问的ACL。然后再将它应用到NAT路由器的outside接口上，接口采用overload过载模式。这样数据包在通过这个接口时，就会在ip地址后加上端口号。一个接口可允许4000个端口号。端口号的知识大家可以自行去查询，我们在浏览器中访问一个网站就是访问它HTTP服务器的80端口。<br>最后查询NAT转换配置的命令是<br>show ip nat translations<br>当然在有数据包通过的时候才能查询到相关内容</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -981,7 +967,7 @@
                     </span>
                     <a href="https://fengyue1.top" class="b-link-green">风月的博客</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2022/06/06/hello-world/" class="b-link-green">Hello World</a>
+                    <a href="/2022/06/08/nat-di-zhi-zhuan-huan/" class="b-link-green">NAT转换</a>
                 </p>
             </div>
 
@@ -1357,37 +1343,39 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/06/06/my-new-post/">
+                <a href="/2022/06/08/nat-di-zhi-zhuan-huan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="My New Post">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="NAT转换">
                         
-                        <span class="card-title">My New Post</span>
+                        <span class="card-title">NAT转换</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+                            ﻿NAT地址转换现有的网络体系中，我们大多使用ipv4地址进行上网操作，ipv4最大地址为2^32为了便于对IP地址进行管理， 根据IPv4地址的第一个字节，IPv4地址可以分为以下五类。
+A类：0~127
+B类：128~191
+C类：19
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-08
+                            </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -1395,56 +1383,39 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/06/06/hello-world/">
+                <a href="/2022/06/08/acm-dao-li-yang-hui-san-jiao-xing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="杨辉三角形">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">杨辉三角形</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            测试
+                            ﻿Fans喜欢图形，而且喜欢把图形倒过来欣赏。有一次，他看见杨辉三角形 了，觉得很新鲜，于是就把它们大大小小地摆布出来。输入一些整数n（1≤n≤10），读入其每个整数，以该整数为行数，其画出来的倒杨辉三角形（每相邻2个数据由一个空格隔开）就
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-06
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-08
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/软件安装与配置/" class="post-category" target="_blank">
-                                    软件安装与配置
+                            <a href="/categories/ACM/" class="post-category" target="_blank">
+                                    ACM
                                 </a>
                             
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hexo/" target="_blank">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
-                    <a href="/tags/Github/" target="_blank">
-                        <span class="chip bg-color">Github</span>
-                    </a>
-                    
-                    <a href="/tags/博客/" target="_blank">
-                        <span class="chip bg-color">博客</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -1616,7 +1587,7 @@
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">177</span> 字
+                <span class="white-color">1.8k</span> 字
             
 
             

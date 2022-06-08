@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fengyue1.top/"/>
-  <updated>2022-06-06T06:37:43.282Z</updated>
+  <updated>2022-06-08T10:28:33.283Z</updated>
   <id>https://fengyue1.top/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NAT转换</title>
+    <link href="https://fengyue1.top/2022/06/08/nat-di-zhi-zhuan-huan/"/>
+    <id>https://fengyue1.top/2022/06/08/nat-di-zhi-zhuan-huan/</id>
+    <published>2022-06-08T06:37:43.000Z</published>
+    <updated>2022-06-08T10:28:33.283Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;﻿&lt;strong&gt;NAT地址转换&lt;/strong&gt;&lt;br&gt;现有的网络体系中，我们大多使用ipv4地址进行上网操作，ipv4最大地址为2^32&lt;br&gt;为了便于对IP地址进行管理，
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>杨辉三角形</title>
+    <link href="https://fengyue1.top/2022/06/08/acm-dao-li-yang-hui-san-jiao-xing/"/>
+    <id>https://fengyue1.top/2022/06/08/acm-dao-li-yang-hui-san-jiao-xing/</id>
+    <published>2022-06-08T03:41:03.000Z</published>
+    <updated>2022-06-08T10:39:11.169Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;﻿Fans喜欢图形，而且喜欢把图形倒过来欣赏。有一次，他看见杨辉三角形
+        
+      
+    
+    </summary>
+    
+      <category term="ACM" scheme="https://fengyue1.top/categories/ACM/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>My New Post</title>
@@ -43,11 +89,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://fengyue1.top/2022/06/06/hello-world/"/>
-    <id>https://fengyue1.top/2022/06/06/hello-world/</id>
-    <published>2022-06-06T03:41:03.000Z</published>
-    <updated>2022-06-07T08:17:36.500Z</updated>
+    <title>数据结构</title>
+    <link href="https://fengyue1.top/2022/06/06/shu-ju-jie-gou-kmp-suan-fa-c-yu-yan-shi-xian/"/>
+    <id>https://fengyue1.top/2022/06/06/shu-ju-jie-gou-kmp-suan-fa-c-yu-yan-shi-xian/</id>
+    <published>2022-06-06T06:37:43.000Z</published>
+    <updated>2022-06-08T10:30:19.111Z</updated>
     
     <summary type="html">
     
@@ -55,20 +101,77 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;p&gt;﻿最近学习数据结构串的匹配，王道书上只有伪代码实现，于是尝试写出可以运行的c语言代码。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token macro
         
       
     
     </summary>
     
-      <category term="软件安装与配置" scheme="https://fengyue1.top/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+      <category term="数据结构" scheme="https://fengyue1.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-      <category term="Hexo" scheme="https://fengyue1.top/tags/Hexo/"/>
+      <category term="KMP" scheme="https://fengyue1.top/tags/KMP/"/>
     
-      <category term="Github" scheme="https://fengyue1.top/tags/Github/"/>
+  </entry>
+  
+  <entry>
+    <title>思科网络实验3.5.3</title>
+    <link href="https://fengyue1.top/2022/06/06/si-ke-wang-luo-shi-yan-3.5.3-vlan-pei-zhi-gu-zhang-pai-chu/"/>
+    <id>https://fengyue1.top/2022/06/06/si-ke-wang-luo-shi-yan-3.5.3-vlan-pei-zhi-gu-zhang-pai-chu/</id>
+    <published>2022-06-06T03:41:03.000Z</published>
+    <updated>2022-06-08T10:33:59.709Z</updated>
     
-      <category term="博客" scheme="https://fengyue1.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h2 id=&quot;网络实验&quot;&gt;&lt;a href=&quot;#网络实验&quot; class=&quot;headerlink&quot; title=&quot;  -网络实验&quot;&gt;&lt;/a&gt;  -网络实验&lt;/h2&gt;&lt;p&gt;﻿&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;思科网络实验3.5.3
+        
+      
+    
+    </summary>
+    
+      <category term="网络实验" scheme="https://fengyue1.top/categories/%E7%BD%91%E7%BB%9C%E5%AE%9E%E9%AA%8C/"/>
+    
+    
+      <category term="cisco" scheme="https://fengyue1.top/tags/cisco/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算子串出现次数</title>
+    <link href="https://fengyue1.top/2022/06/06/wen-ti-a-string-ji-suan-zi-chuan-chu-xian-ci-shu/"/>
+    <id>https://fengyue1.top/2022/06/06/wen-ti-a-string-ji-suan-zi-chuan-chu-xian-ci-shu/</id>
+    <published>2022-06-06T03:41:03.000Z</published>
+    <updated>2022-06-08T10:32:38.087Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;﻿&lt;/p&gt;
+&lt;p&gt;题目描述&lt;br&gt;给定完全由小写字母组成的两个字符串a和b，求b在a中出现的次数&lt;/p&gt;
+&lt;p&gt;输入&lt;br&gt;第一行为字符串a；&lt;/p&gt;
+&lt;p&gt;第二行为字符串b;&lt;/p&gt;
+&lt;p&gt;输出&lt;br&gt;一个整数，表示b在a中出现的次数&lt;/p&gt;
+&lt;p&gt;样例输入&lt;/p&gt;
+&lt;p
+        
+      
+    
+    </summary>
+    
+      <category term="ACM" scheme="https://fengyue1.top/categories/ACM/"/>
+    
+    
+      <category term="string" scheme="https://fengyue1.top/tags/string/"/>
     
   </entry>
   
