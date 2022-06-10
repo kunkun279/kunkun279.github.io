@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fengyue1.top/"/>
-  <updated>2022-06-08T10:28:33.283Z</updated>
+  <updated>2022-06-10T14:14:10.468Z</updated>
   <id>https://fengyue1.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="https://fengyue1.top/2022/06/10/guang-du-you-xian-sou-suo-suan-fa/"/>
+    <id>https://fengyue1.top/2022/06/10/guang-du-you-xian-sou-suo-suan-fa/</id>
+    <published>2022-06-10T13:37:43.000Z</published>
+    <updated>2022-06-10T14:14:10.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​      广度优先搜索算法类似二叉树的层序遍历算法，首先访问指定节点v,再从v出发依次访问与v的邻接节点m…..等，直到将图中节点遍历完成。&lt;/p&gt;
+&lt;p&gt;​     
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>NAT转换</title>
@@ -89,11 +112,11 @@
   </entry>
   
   <entry>
-    <title>数据结构</title>
+    <title>KMP</title>
     <link href="https://fengyue1.top/2022/06/06/shu-ju-jie-gou-kmp-suan-fa-c-yu-yan-shi-xian/"/>
     <id>https://fengyue1.top/2022/06/06/shu-ju-jie-gou-kmp-suan-fa-c-yu-yan-shi-xian/</id>
     <published>2022-06-06T06:37:43.000Z</published>
-    <updated>2022-06-08T10:30:19.111Z</updated>
+    <updated>2022-06-10T13:43:29.133Z</updated>
     
     <summary type="html">
     
