@@ -85,7 +85,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="./medias/images/loading.gif" data-original="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">风月的博客</span>
                 </a>
@@ -174,6 +174,13 @@
             <i class="fa fa-address-book"></i>
             
             <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/video" class="waves-effect waves-light">
+            
+            <span>video</span>
         </a>
     </li>
     
@@ -305,6 +312,17 @@
             
       </li>
     
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/video" class="waves-effect waves-light">
+              
+              <span>video</span>
+            </a>
+
+            
+      </li>
+    
 
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
@@ -318,7 +336,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="./medias/images/loading.gif" data-original="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">风月的博客</div>
         <div class="logo-desc">
@@ -410,6 +428,15 @@
                 <i class="fa fa-fw fa-address-book"></i>
                 
                 友情链接
+            </a>
+        </li>
+        
+        <li>
+            <a href="/video" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-link"></i>
+                
+                video
             </a>
         </li>
         
@@ -523,6 +550,17 @@
                         <i class="fa fa-fw fa-address-book"></i>
                         
                         友情链接
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/video" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-link"></i>
+                        
+                        video
                     </a>
               
             </li>
@@ -776,7 +814,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        170
+                        222
                     </div>
                     
 
@@ -802,10 +840,28 @@
             <div id="articleContent">
                 <hr>
 <h2 id="网络实验"><a href="#网络实验" class="headerlink" title="  -网络实验"></a>  -网络实验</h2><p>﻿</p>
-<p> <strong>思科网络实验3.5.3 配置故障排除</strong><br>实验要求<br><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/2020102713553580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p> <strong>思科网络实验3.5.3 配置故障排除</strong><br>实验要求<br><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/2020102713553580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <p>网络拓扑图</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20201027135818729.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>解题过程<br>1.按照实验要求查看主机ip地址分配，发现PC6默认网关不对，改为192.168.30.1<br>2.交换机vlan配置<br>S1配置vlan 10,vlan 20,vlan 30,vlan 56,记得配置vlan名称。<br>交换机之间的接口配置trunk口，设置本征vlan为vlan56<br>S2中默认f0/1口的本征vlan为vlan1,我们需要关闭vlan1.设置vlan56为本征vlan，同时设置对应主机接口为access口，允许相应数据通过。<br>S3与S2一致。<br>完成之后，同一vlan之间能ping通，交换机之间也能ping通.    </p>
-
+<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20201027135818729.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>解题过程<br>1.按照实验要求查看主机ip地址分配，发现PC6默认网关不对，改为192.168.30.1<br>2.交换机vlan配置<br>S1配置vlan 10,vlan 20,vlan 30,vlan 56,记得配置vlan名称。<br>交换机之间的接口配置trunk口，设置本征vlan为vlan56<br>S2中默认f0/1口的本征vlan为vlan1,我们需要关闭vlan1.设置vlan56为本征vlan，同时设置对应主机接口为access口，允许相应数据通过。<br>S3与S2一致。<br>完成之后，同一vlan之间能ping通，交换机之间也能ping通.    </p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -917,10 +973,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="./medias/images/loading.gif" data-original="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                        <img src="./medias/images/loading.gif" data-original="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1339,7 +1395,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="KMP">
+                        <img src="./medias/images/loading.gif" data-original="/medias/featureimages/2.jpg" class="responsive-img" alt="KMP">
                         
                         <span class="card-title">KMP</span>
                     </div>
@@ -1393,7 +1449,7 @@ void Ne
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="计算子串出现次数">
+                        <img src="./medias/images/loading.gif" data-original="/medias/featureimages/5.jpg" class="responsive-img" alt="计算子串出现次数">
                         
                         <span class="card-title">计算子串出现次数</span>
                     </div>
@@ -1604,7 +1660,7 @@ sharonisagoodgirlihopeshecangetgoodg
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">3.2k</span> 字
+                <span class="white-color">3.5k</span> 字
             
 
             
@@ -1851,5 +1907,11 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>
