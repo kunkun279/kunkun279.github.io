@@ -840,9 +840,9 @@
             <div id="articleContent">
                 <hr>
 <h2 id="网络实验"><a href="#网络实验" class="headerlink" title="  -网络实验"></a>  -网络实验</h2><p>﻿</p>
-<p> <strong>思科网络实验3.5.3 配置故障排除</strong><br>实验要求<br><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/2020102713553580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p> <strong>思科网络实验3.5.3 配置故障排除</strong><br>实验要求<br><img src="./medias/images/loading.gif" data-original="https://img-blog.csdnimg.cn/2020102713553580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <p>网络拓扑图</p>
-<p><img src="/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20201027135818729.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>解题过程<br>1.按照实验要求查看主机ip地址分配，发现PC6默认网关不对，改为192.168.30.1<br>2.交换机vlan配置<br>S1配置vlan 10,vlan 20,vlan 30,vlan 56,记得配置vlan名称。<br>交换机之间的接口配置trunk口，设置本征vlan为vlan56<br>S2中默认f0/1口的本征vlan为vlan1,我们需要关闭vlan1.设置vlan56为本征vlan，同时设置对应主机接口为access口，允许相应数据通过。<br>S3与S2一致。<br>完成之后，同一vlan之间能ping通，交换机之间也能ping通.    </p>
+<p><img src="./medias/images/loading.gif" data-original="https://img-blog.csdnimg.cn/20201027135818729.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk5MDIzOQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>解题过程<br>1.按照实验要求查看主机ip地址分配，发现PC6默认网关不对，改为192.168.30.1<br>2.交换机vlan配置<br>S1配置vlan 10,vlan 20,vlan 30,vlan 56,记得配置vlan名称。<br>交换机之间的接口配置trunk口，设置本征vlan为vlan56<br>S2中默认f0/1口的本征vlan为vlan1,我们需要关闭vlan1.设置vlan56为本征vlan，同时设置对应主机接口为access口，允许相应数据通过。<br>S3与S2一致。<br>完成之后，同一vlan之间能ping通，交换机之间也能ping通.    </p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
