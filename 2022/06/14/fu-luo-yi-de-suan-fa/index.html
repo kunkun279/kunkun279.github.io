@@ -6,15 +6,13 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="KMP, CDUTCM  风月 Network Security 计算机网络">
+    <meta name="keywords" content="弗洛伊德算法, CDUTCM  风月 Network Security 计算机网络">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="﻿最近学习数据结构串的匹配，王道书上只有伪代码实现，于是尝试写出可以运行的c语言代码。
-#include &amp;lt;stdio.h&gt;
-#include &amp;lt;stdlib.h&gt;
-#include &amp;lt;string.h&gt;
-
-void Ne">
+    <meta name="description" content="for(int k=0;k&amp;lt;n;k++){//确定中转点 
+    for(int i=0;i&amp;lt;n;i++){//遍历整个矩阵，i为行号，j为列号 
+        for(int j=0;j&amp;lt;n;j++){
+      ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +20,7 @@ void Ne">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>KMP | 风月的博客</title>
+    <title>弗洛伊德算法 | 风月的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -659,13 +657,13 @@ void Ne">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        KMP
+                        弗洛伊德算法
                     </div>
                 </div>
             </div>
@@ -775,13 +773,9 @@ void Ne">
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/KMP/" target="_blank">
-                                <span class="chip bg-color">KMP</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -801,7 +795,7 @@ void Ne">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-06-06
+                    2022-06-14
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -815,7 +809,7 @@ void Ne">
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        252
+                        140
                     </div>
                     
 
@@ -839,64 +833,17 @@ void Ne">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>﻿最近学习数据结构串的匹配，王道书上只有伪代码实现，于是尝试写出可以运行的c语言代码。</p>
-<pre class="line-numbers language-c"><code class="language-c"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h></span></span>
-<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;stdlib.h></span></span>
-<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;string.h></span></span>
-
-<span class="token keyword">void</span> <span class="token function">Next</span><span class="token punctuation">(</span><span class="token keyword">char</span><span class="token operator">*</span> T<span class="token punctuation">,</span><span class="token keyword">int</span><span class="token operator">*</span> next<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">//求next数组</span>
-    next<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
-    next<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> j<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">;</span>
-    <span class="token keyword">while</span><span class="token punctuation">(</span>i<span class="token operator">&lt;</span><span class="token function">strlen</span><span class="token punctuation">(</span>T<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>j<span class="token operator">==</span><span class="token number">0</span><span class="token operator">||</span>T<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span><span class="token operator">==</span>T<span class="token punctuation">[</span>i<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            i<span class="token operator">++</span><span class="token punctuation">;</span>
-            j<span class="token operator">++</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span><span class="token punctuation">(</span>T<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span><span class="token operator">!=</span>T<span class="token punctuation">[</span>i<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-                next<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>j<span class="token punctuation">;</span>
+                <pre class="line-numbers language-c"><code class="language-c"><span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> k<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>k<span class="token operator">&lt;</span>n<span class="token punctuation">;</span>k<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">//确定中转点 </span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>n<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">//遍历整个矩阵，i为行号，j为列号 </span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span>n<span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>A<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">></span>A<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token operator">+</span>A<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">//以k为中转点的路径更短 </span>
+                A<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">=</span>A<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token operator">+</span>A<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//更新最短路径 </span>
+                path<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">=</span>k<span class="token punctuation">;</span><span class="token comment" spellcheck="true">//更新中转点 </span>
             <span class="token punctuation">}</span>
-            <span class="token keyword">else</span><span class="token punctuation">{</span>
-                next<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>next<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">else</span><span class="token punctuation">{</span>
-            j<span class="token operator">=</span>next<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-
-<span class="token keyword">int</span> <span class="token function">KMP</span><span class="token punctuation">(</span><span class="token keyword">char</span><span class="token operator">*</span> S<span class="token punctuation">,</span><span class="token keyword">char</span><span class="token operator">*</span> T<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">//KMP算法实现</span>
-      <span class="token keyword">int</span> next<span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-      <span class="token function">Next</span><span class="token punctuation">(</span>T<span class="token punctuation">,</span>next<span class="token punctuation">)</span><span class="token punctuation">;</span>
-      <span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
-      <span class="token keyword">int</span> j<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
-      <span class="token keyword">while</span><span class="token punctuation">(</span>i<span class="token operator">&lt;=</span><span class="token function">strlen</span><span class="token punctuation">(</span>S<span class="token punctuation">)</span><span class="token operator">&amp;&amp;</span>j<span class="token operator">&lt;=</span><span class="token function">strlen</span><span class="token punctuation">(</span>T<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-                <span class="token keyword">if</span><span class="token punctuation">(</span>j<span class="token operator">==</span><span class="token number">0</span><span class="token operator">||</span>S<span class="token punctuation">[</span>i<span class="token number">-1</span><span class="token punctuation">]</span><span class="token operator">==</span>T<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-              i<span class="token operator">++</span><span class="token punctuation">;</span>
-              j<span class="token operator">++</span><span class="token punctuation">;</span>
-          <span class="token punctuation">}</span>
-          <span class="token keyword">else</span><span class="token punctuation">{</span>
-              j<span class="token operator">=</span>next<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
-          <span class="token punctuation">}</span>
-      <span class="token punctuation">}</span>
-      <span class="token keyword">if</span><span class="token punctuation">(</span>j<span class="token operator">></span><span class="token function">strlen</span><span class="token punctuation">(</span>T<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-          <span class="token keyword">return</span> i<span class="token operator">-</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token function">strlen</span><span class="token punctuation">(</span>T<span class="token punctuation">)</span><span class="token punctuation">;</span>
-      <span class="token punctuation">}</span>
-      <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token keyword">char</span><span class="token operator">*</span> source<span class="token punctuation">;</span>
-    source<span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">char</span><span class="token operator">*</span><span class="token punctuation">)</span><span class="token function">malloc</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token operator">*</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">char</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">char</span><span class="token operator">*</span> target<span class="token punctuation">;</span>
-    target<span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">char</span><span class="token operator">*</span><span class="token punctuation">)</span><span class="token function">malloc</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token operator">*</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">char</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">gets</span><span class="token punctuation">(</span>source<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">gets</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> i<span class="token operator">=</span><span class="token function">KMP</span><span class="token punctuation">(</span>source<span class="token punctuation">,</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1065,7 +1012,7 @@ void Ne">
                     </span>
                     <a href="https://fengyue1.top" class="b-link-green">风月的博客</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2022/06/06/shu-ju-jie-gou-kmp-suan-fa-c-yu-yan-shi-xian/" class="b-link-green">KMP</a>
+                    <a href="/2022/06/14/fu-luo-yi-de-suan-fa/" class="b-link-green">弗洛伊德算法</a>
                 </p>
             </div>
 
@@ -1441,41 +1388,46 @@ void Ne">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/06/08/acm-dao-li-yang-hui-san-jiao-xing/">
+                <a href="/2022/06/14/fu-luo-yi-de-suan-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="./medias/images/loading.gif" data-original="/medias/featureimages/2.jpg" class="responsive-img" alt="杨辉三角形">
+                        <img src="./medias/images/loading.gif" data-original="/medias/featureimages/3.jpg" class="responsive-img" alt="弗洛伊德算法">
                         
-                        <span class="card-title">杨辉三角形</span>
+                        <span class="card-title">弗洛伊德算法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ﻿Fans喜欢图形，而且喜欢把图形倒过来欣赏。有一次，他看见杨辉三角形 了，觉得很新鲜，于是就把它们大大小小地摆布出来。输入一些整数n（1≤n≤10），读入其每个整数，以该整数为行数，其画出来的倒杨辉三角形（每相邻2个数据由一个空格隔开）就
+                            for(int k=0;k&lt;n;k++){//确定中转点 
+    for(int i=0;i&lt;n;i++){//遍历整个矩阵，i为行号，j为列号 
+        for(int j=0;j&lt;n;j++){
+      
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-08
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-14
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/ACM/" class="post-category" target="_blank">
-                                    ACM
+                            <a href="/categories/数据结构/" class="post-category" target="_blank">
+                                    数据结构
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -1486,48 +1438,30 @@ void Ne">
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/06/06/si-ke-wang-luo-shi-yan-3.5.3-vlan-pei-zhi-gu-zhang-pai-chu/">
+                <a href="/2022/06/10/guang-du-you-xian-sou-suo-suan-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="./medias/images/loading.gif" data-original="/medias/featureimages/0.jpg" class="responsive-img" alt="思科网络实验3.5.3">
+                        <img src="./medias/images/loading.gif" data-original="/medias/featureimages/5.jpg" class="responsive-img" alt="广度优先搜索t">
                         
-                        <span class="card-title">思科网络实验3.5.3</span>
+                        <span class="card-title">广度优先搜索t</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-  -网络实验﻿
- 思科网络实验3.5.3 配置故障排除实验要求
-网络拓扑图
-解题过程1.按照实验要求查看主机ip地址分配，发现PC6默认网关不对，改为192.168.30.12.交换机vlan配置S1配置vlan 10,vlan 20,
+                            ​      广度优先搜索算法类似二叉树的层序遍历算法，首先访问指定节点v,再从v出发依次访问与v的邻接节点m…..等，直到将图中节点遍历完成。
+​      在无向图中，邻接节点的邻接节点包含已访问过的节点，重复的访问会增加BFS算法的时
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-06
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-10
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/网络实验/" class="post-category" target="_blank">
-                                    网络实验
-                                </a>
-                            
-                            
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/cisco/" target="_blank">
-                        <span class="chip bg-color">cisco</span>
-                    </a>
-                    
                 </div>
                 
             </div>
