@@ -216,7 +216,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #bf30ac 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #1E90FF 0%, #1E90FF 100%);
     opacity: 0.9;
     /* 透明度*/
 }

@@ -174,13 +174,6 @@
         </a>
     </li>
     
-    <li class="hide-on-med-and-down">
-        <a href="/video" class="waves-effect waves-light">
-            
-            <span>video</span>
-        </a>
-    </li>
-    
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
             <i id="searchIcon" class="fa fa-search" title="搜索"></i>
@@ -309,17 +302,6 @@
             
       </li>
     
-      <li class="hide-on-med-and-down nav-item" >
-
-        
-            <a href="/video" class="waves-effect waves-light">
-              
-              <span>video</span>
-            </a>
-
-            
-      </li>
-    
 
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
@@ -425,15 +407,6 @@
                 <i class="fa fa-fw fa-address-book"></i>
                 
                 友情链接
-            </a>
-        </li>
-        
-        <li>
-            <a href="/video" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-link"></i>
-                
-                video
             </a>
         </li>
         
@@ -547,17 +520,6 @@
                         <i class="fa fa-fw fa-address-book"></i>
                         
                         友情链接
-                    </a>
-              
-            </li>
-        
-        <li class="m-nav-item">
-                
-                    <a href="/video" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-link"></i>
-                        
-                        video
                     </a>
               
             </li>
@@ -798,7 +760,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        2.4k
+                        2.5k
                     </div>
                     
 
@@ -858,6 +820,7 @@
 <p>空间复杂度：由于快速排序是递归调用的，需要一个递归工作站来保存每层调用的递归信息，因此其容量与递归调用深度一致，最好的情况下为O(log2n)，最坏情况下为需要进行n-1躺递归，为O(n)。平均为O(log2n)</p>
 <p>时间复杂度：快速排序算法的时间复杂度与子表的划为是否均衡有关，最坏情况下左子表为n-1，右子表为0，每次需要n-1躺递归，时间复杂度为O(n^2)，最好的情况下左右子表都不超过n/2，时间复杂度为O(nlog2n)，快速排序算法是所有内部排序算法中平均性能最优的算法。</p>
 <p>稳定性分析：不稳定，当选取相同元素作为基准时，元素的相对位置会发生改变。</p>
+<p>*当快速排序的序列基本有序时，不利于发挥快速排序的优势，因为这会导致快速排序划分匹配区间不均匀，每次选取第n个关键字进行划分。</p>
 <h2 id="3-选择排序"><a href="#3-选择排序" class="headerlink" title="3.选择排序"></a>3.选择排序</h2><p>基本思想，第i躺选择一个最小元素插入有序序列L[i]中。经过n-1躺排序完成。</p>
 <h3 id="3-1简单选择排序"><a href="#3-1简单选择排序" class="headerlink" title="3.1简单选择排序"></a>3.1简单选择排序</h3><p>基本思想，第i躺从i-n中选择一个最小元素与L[i]<strong>交换</strong>。经过n-1躺排序完成。</p>
 <p>空间复杂度为O(1)</p>
@@ -1424,12 +1387,11 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/07/02/shu-ju-jie-gou-pai-xu-suan-fa-zong-jie/">
+                <a href="/2022/07/09/shu-ju-jie-gou-suan-fa-ti-ti-jie/">
                     <div class="card-image">
                         
                         
@@ -1441,20 +1403,23 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            数据结构-排序算法总结1.插入排序插入排序的基本思想是每次将一个待排序的记录按关键字大小插入到前面已排好序的子序列中，直到记录全部插入完成。
-1.1直接插入排序 从插入排序的定义我们可以想到一种最为简单的插入排序算法，即确定待排序元素L[i
+                            4.
+bool del_s_t(sqlist &amp;L,ElemType s,ElemType t){
+    if(s>=t||L.length==0)
+        return false;
+    int i,j;
+    f
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-07-02
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2022-07-09
+                        </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -1669,7 +1634,7 @@
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">6k</span> 字
+                <span class="white-color">6.6k</span> 字
             
 
             
