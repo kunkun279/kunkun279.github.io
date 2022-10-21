@@ -28,7 +28,8 @@
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token</summary>
+    <summary type="html">&lt;pre class=&quot;line-numbers language-lang-c&quot;&gt;&lt;code class=&quot;language-lang-c&quot;&gt;for(int k=0;k&lt;n;k++){//确定中转点 
+    for(int</summary>
         
       
     
@@ -141,7 +142,7 @@
         
         
     <summary type="html">&lt;p&gt;﻿最近学习数据结构串的匹配，王道书上只有伪代码实现，于是尝试写出可以运行的c语言代码。&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token macro</summary>
+&lt;pre class=&quot;line-numbers language-lang-c&quot;&gt;&lt;code class=&quot;language-lang-c&quot;&gt;#include</summary>
         
       
     

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fengyue1.top/galleries/index.html</loc>
+    
+    <lastmod>2022-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fengyue1.top/bangumis/index.html</loc>
+    
+    <lastmod>2022-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fengyue1.top/2022/06/06/wen-ti-a-string-ji-suan-zi-chuan-chu-xian-ci-shu/</loc>
     
     <lastmod>2022-10-21</lastmod>
@@ -137,24 +155,6 @@
   </url>
   
   <url>
-    <loc>https://fengyue1.top/bangumis/index.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/bangumis/index-1.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fengyue1.top/contact/index.html</loc>
     
     <lastmod>2022-06-08</lastmod>
@@ -228,15 +228,6 @@
   
   <url>
     <loc>https://fengyue1.top/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%873/index.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/galleries/index.html</loc>
     
     <lastmod>2022-06-06</lastmod>
     
