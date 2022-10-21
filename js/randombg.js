@@ -8,11 +8,11 @@ var bgindex =Math.floor(Math.random() * backimg.length);
 document.getElementById("web_bg").style.backgroundImage = backimg[bgindex];
 //随机banner数组,图片可以换成图床链接，注意最后一条后面不要有逗号
 var bannerimg =[
-  "url(/medias/banner/1.jpg)",
-  "url(/medias/banner/2.jpg)",
-  "url(/medias/banner/3.jpg)",
-  "url(/medias/banner/6.jpg)",
-  "url(/medias/banner/4.jpg)"
+  "url(/medias/banner/1.png)",
+  "url(/medias/banner/2.png)",
+  "url(/medias/banner/3.png)",
+  "url(/medias/banner/6.png)",
+  "url(/medias/banner/4.png)"
 ];
 //获取banner图片总数，生成随机数
 var bannerindex =Math.floor(Math.random() * bannerimg.length);
