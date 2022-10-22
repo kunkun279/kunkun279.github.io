@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fengyue1.top/galleries/technology/index.html</loc>
+    
+    <lastmod>2022-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fengyue1.top/galleries/scenery/index.html</loc>
+    
+    <lastmod>2022-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fengyue1.top/galleries/wallpaper/index.html</loc>
+    
+    <lastmod>2022-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fengyue1.top/galleries/index.html</loc>
     
-    <lastmod>2022-10-21</lastmod>
+    <lastmod>2022-10-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -212,24 +239,6 @@
     <loc>https://fengyue1.top/about/index.html</loc>
     
     <lastmod>2022-06-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%874/index.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%873/index.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
