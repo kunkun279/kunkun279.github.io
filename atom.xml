@@ -28,8 +28,7 @@
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-lang-c&quot;&gt;&lt;code class=&quot;language-lang-c&quot;&gt;for(int k=0;k&lt;n;k++){//确定中转点 
-    for(int</summary>
+    <summary type="html">&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(&lt;span</summary>
         
       
     
@@ -142,7 +141,7 @@
         
         
     <summary type="html">&lt;p&gt;﻿最近学习数据结构串的匹配，王道书上只有伪代码实现，于是尝试写出可以运行的c语言代码。&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-lang-c&quot;&gt;&lt;code class=&quot;language-lang-c&quot;&gt;#include</summary>
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
         
       
     
@@ -173,7 +172,7 @@
 &lt;p&gt;第二行为字符串b;&lt;/p&gt;
 &lt;p&gt;输出&lt;br&gt;一个整数，表示b在a中出现的次数&lt;/p&gt;
 &lt;p&gt;样例输入&lt;/p&gt;
-&lt;p</summary>
+&lt;f</summary>
         
       
     
