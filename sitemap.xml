@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fengyue1.top/book/pre_longzu/index.html</loc>
+    
+    <lastmod>2022-10-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fengyue1.top/book/longzu1/index.html</loc>
     
     <lastmod>2022-10-23</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://fengyue1.top/book/longzu4/index.html</loc>
-    
-    <lastmod>2022-10-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/book/pre_longzu/index.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
