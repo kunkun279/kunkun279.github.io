@@ -3239,32 +3239,45 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://assets.akilar.top/image/cover1.webp');
+  background: url('/img/bili.png');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: #abcdef;
+  background: url('/img/bili2.png');
 }
 li.categoryBar-list-item:nth-child(3) {
-  background: rgba(45,67,89,0.7);
+  background: #abcdef;
 }
 li.categoryBar-list-item:nth-child(4) {
+  background: rgba(45,67,89,0.7);
+}
+li.categoryBar-list-item:nth-child(5) {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: -o-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: -ms-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
 }
-li.categoryBar-list-item:nth-child(5) {
-  background: url('https://assets.akilar.top/image/cover5.webp');
-}
 li.categoryBar-list-item:nth-child(6) {
-  background: url('https://assets.akilar.top/image/cover6.webp');
+  background: url('/img/bili.png');
+}
+li.categoryBar-list-item:nth-child(7) {
+  background: #abcdef;
+}
+li.categoryBar-list-item:nth-child(8) {
+  background: rgba(45,67,89,0.7);
+}
+li.categoryBar-list-item:nth-child(9) {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '长篇小说连载' !important;
+  content: 'ACM题解' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '杂谈教程' !important;
+  content: '数据结构学习指南' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
   content: '玩转Win10' !important;
