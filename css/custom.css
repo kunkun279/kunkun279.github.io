@@ -136,4 +136,9 @@ figure.highlight pre .addition {
     color: #00bf03 !important;
 }
 
-
+#comment {
+    background-image: url(/img/comment_bg.png); //替换成自己的背景图片路径
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 250px 62px; //根据评论框设置合适的背景图大小
+}
