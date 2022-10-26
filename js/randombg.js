@@ -1,6 +1,6 @@
 //随机背景图片数组,图片可以换成图床链接，注意最后一条后面不要有逗号
 var backimg =[
-  "url(https://w.wallhaven.cc/full/rr/wallhaven-rr3zvm.png)"
+  "url(https://w.wallhaven.cc/full/9d/wallhaven-9dx3q8.jpg)"
 ];
 //获取背景图片总数，生成随机数
 var bgindex =Math.floor(Math.random() * backimg.length);

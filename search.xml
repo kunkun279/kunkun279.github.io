@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>hexo Twikoo评论系统美化</title>
+      <link href="/2022/10/26/2022-10-26-hexo-twikoo-ping-lun-xi-tong-mei-hua/"/>
+      <url>/2022/10/26/2022-10-26-hexo-twikoo-ping-lun-xi-tong-mei-hua/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Twikoo评论系统美化"><a href="#Twikoo评论系统美化" class="headerlink" title="Twikoo评论系统美化"></a>Twikoo评论系统美化</h1><p>在完成博客的twikoo评论系统搭建后，总觉得评论框的白色太过单调，因此决定对评论框进行简单美化。</p><h2 id="添加背景图片"><a href="#添加背景图片" class="headerlink" title="添加背景图片"></a>添加背景图片</h2><p>在 blog根目录下的\themes\butterfly\source\css\custom\twikoo_beautify.css中复制粘贴以下代码。（没有就新建）</p><figure class="highlight css"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">/* Twikoo评论框高度设置 */</span></span><br><span class="line"><span class="selector-class">.el-textarea__inner</span> {</span><br><span class="line">    <span class="attribute">min-height</span>: <span class="number">180px</span> <span class="meta">!important</span>; //twikoo评论框初始太小，可以自行调节高度</span><br><span class="line">  }</span><br><span class="line">  </span><br><span class="line"><span class="comment">/* Twikoo评论框添加背景图*/</span></span><br><span class="line"><span class="selector-class">.el-textarea</span> {</span><br><span class="line"><span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">/img/comment_bg.png</span>); //自行设定背景图片，支持图片链接</span><br><span class="line"><span class="attribute">background-size</span>: <span class="number">162px</span> <span class="number">75px</span>; //建议自行设置图片大小</span><br><span class="line"><span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line"><span class="attribute">background-position</span>: right;</span><br><span class="line"><span class="attribute">background-color</span>: <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">255</span>, <span class="number">0</span>);</span><br><span class="line"><span class="attribute">resize</span>: vertical</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Twikoo评论框背景图实现点击下移*/</span></span><br><span class="line"><span class="selector-class">.el-textarea</span><span class="selector-pseudo">:focus</span>-within {</span><br><span class="line"><span class="attribute">background-position</span>-y: <span class="number">800px</span>;</span><br><span class="line"><span class="attribute">transition</span>: all <span class="number">0.2s</span> ease-in-out <span class="number">0s</span>;</span><br><span class="line">}  //用不到此功能，可以注释掉</span><br></pre></td></tr></tbody></table></figure><p>然后打开主题配置文件，在inject处增加如下代码。</p><figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Inject</span></span><br><span class="line"><span class="comment"># Insert the code to head (before '&lt;/head&gt;' tag) and the bottom (before '&lt;/body&gt;' tag)</span></span><br><span class="line"><span class="comment"># 插入代码到头部 &lt;/head&gt; 之前 和 底部 &lt;/body&gt; 之前</span></span><br><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">    <span class="comment"># - &lt;link rel="stylesheet" href="/xxx.css"&gt;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel="stylesheet"</span> <span class="string">href="/css/custom/twikoo_beautify.css"</span>  <span class="string">media="defer"</span> <span class="string">onload="this.media='all'"&gt;</span>  <span class="comment">#评论美化添加这一句就可以了。</span></span><br></pre></td></tr></tbody></table></figure><h2 id="改变透明度"><a href="#改变透明度" class="headerlink" title="改变透明度"></a>改变透明度</h2><p>参考店长大佬博客：<a href="https://akilar.top/posts/ebf20e02/">Custom Beautify | Akilarの糖果屋</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>弗洛伊德算法</title>
       <link href="/2022/06/14/fu-luo-yi-de-suan-fa/"/>
       <url>/2022/06/14/fu-luo-yi-de-suan-fa/</url>
@@ -42,7 +61,7 @@
     
     
     <entry>
-      <title>广度优先搜索t</title>
+      <title>广度优先搜索</title>
       <link href="/2022/06/10/guang-du-you-xian-sou-suo-suan-fa/"/>
       <url>/2022/06/10/guang-du-you-xian-sou-suo-suan-fa/</url>
       
