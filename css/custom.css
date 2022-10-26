@@ -136,9 +136,31 @@ figure.highlight pre .addition {
     color: #00bf03 !important;
 }
 
-#comment {
-    background-image: url(/img/comment_bg.png); //替换成自己的背景图片路径
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 250px 62px; //根据评论框设置合适的背景图大小
+/* 首页文章卡片 透明度*/
+#recent-posts > .recent-post-item{
+    background:rgba(255, 255, 255, 0.9);
+}
+/* 首页侧栏卡片 */
+.card-widget{
+  background:rgba(255, 255, 255, 0.9)!important;
+}
+/* 文章页面正文背景 */
+div#post{
+  background: rgba(255, 255, 255, 0.9);
+}
+/* 分页页面 */
+div#page{
+  background: rgba(255, 255, 255, 0.9);
+}
+/* 归档页面 */
+div#archive{
+  background: rgba(255, 255, 255, 0.9);
+}
+/* 标签页面 */
+div#tag{
+  background: rgba(255, 255, 255, 0.9);
+}
+/* 分类页面 */
+div#category{
+  background: rgba(255, 255, 255, 0.9);
 }
