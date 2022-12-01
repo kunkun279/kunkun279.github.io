@@ -6,7 +6,7 @@
   <link href="https://fengyue1.top/atom.xml" rel="self"/>
   
   <link href="https://fengyue1.top/"/>
-  <updated>2022-10-26T05:59:33.829Z</updated>
+  <updated>2022-11-29T09:53:54.890Z</updated>
   <id>https://fengyue1.top/</id>
   
   <author>
@@ -15,6 +15,154 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://fengyue1.top/2022/11/29/bu-ma-chu-fa/"/>
+    <id>https://fengyue1.top/2022/11/29/bu-ma-chu-fa/</id>
+    <published>2022-11-29T09:53:54.890Z</published>
+    <updated>2022-11-29T09:53:54.890Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;C:\Users\HYY\AppData\Roaming\Typora\typora-user-images\image-20221129163412497.png&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://fengyue1.top/2022/11/27/bu-fen-yi-ma-di-zhi-chong-fu/"/>
+    <id>https://fengyue1.top/2022/11/27/bu-fen-yi-ma-di-zhi-chong-fu/</id>
+    <published>2022-11-27T13:15:40.996Z</published>
+    <updated>2022-11-27T13:15:40.997Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;部分译码：只采用高位地址线的一部分进行片选，此时一个存储芯片的某一个地址会对应多个片选信号（例如高位A15   </summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://fengyue1.top/2022/11/21/fu-dian-shu-zong-jie/"/>
+    <id>https://fengyue1.top/2022/11/21/fu-dian-shu-zong-jie/</id>
+    <published>2022-11-21T03:22:00.633Z</published>
+    <updated>2022-11-21T06:39:07.588Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;浮点数的规格化表示采用IEEE 754标准，此时浮点数阶码为2^n-1</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://fengyue1.top/2022/11/20/2018/"/>
+    <id>https://fengyue1.top/2022/11/20/2018/</id>
+    <published>2022-11-20T09:19:10.819Z</published>
+    <updated>2022-11-20T09:19:10.820Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;type&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://fengyue1.top/2022/11/19/2017/"/>
+    <id>https://fengyue1.top/2022/11/19/2017/</id>
+    <published>2022-11-19T02:52:14.389Z</published>
+    <updated>2022-11-19T03:17:36.138Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;算法思想：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   </summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://fengyue1.top/2022/11/18/2016-suan-fa-ti/"/>
+    <id>https://fengyue1.top/2022/11/18/2016-suan-fa-ti/</id>
+    <published>2022-11-18T14:10:19.193Z</published>
+    <updated>2022-11-18T14:10:19.193Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;type&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://fengyue1.top/2022/11/04/er-cha-shu-ceng-xu-bian-li/"/>
+    <id>https://fengyue1.top/2022/11/04/er-cha-shu-ceng-xu-bian-li/</id>
+    <published>2022-11-04T03:53:33.069Z</published>
+    <updated>2022-11-04T03:53:33.069Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;二叉树层序遍历&lt;/p&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;type&quot;&gt;void&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo Twikoo评论系统美化</title>
@@ -67,7 +215,7 @@
     <link href="https://fengyue1.top/2022/06/14/shu-ju-jie-gou-pai-xu-suan-fa-zong-jie/"/>
     <id>https://fengyue1.top/2022/06/14/shu-ju-jie-gou-pai-xu-suan-fa-zong-jie/</id>
     <published>2022-06-14T03:41:03.000Z</published>
-    <updated>2022-10-21T02:58:00.503Z</updated>
+    <updated>2022-11-16T08:21:12.028Z</updated>
     
     
       
