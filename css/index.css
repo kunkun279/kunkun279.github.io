@@ -3239,13 +3239,13 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('/img/bili.png');
+  background: url('/img/bili.webp');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('/img/bili2.png');
+  background: url('/img/bili2.webp');
 }
 li.categoryBar-list-item:nth-child(3) {
-  background: url('/img/bili3.png');
+  background: url('/img/bili3.webp');
 }
 li.categoryBar-list-item:nth-child(4) {
   background: #abcdef;
