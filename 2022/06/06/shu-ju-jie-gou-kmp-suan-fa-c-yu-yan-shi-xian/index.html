@@ -156,10 +156,10 @@
   initLoading: () => {
     document.body.style.overflow = '';
     document.getElementById('loading-box').classList.remove("loaded")
-
   }
 }
-window.addEventListener('load',()=> {preloader.endLoading()})
+window.addEventListener('DOMConetentLoaded',()=> {preloader.endLoading()})
+setTimeout(function(){preloader.endLoading();}, 5000);
 document.getElementById('loading-box').addEventListener('click',()=> {preloader.endLoading()})</script><div class="js-pjax"><script>(()=>{
   const init = () => {
     twikoo.init(Object.assign({
