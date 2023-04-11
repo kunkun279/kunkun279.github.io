@@ -231,3 +231,9 @@ div#tag{
 div#category{
   background: rgba(255, 255, 255, 0.9);
 }
+
+/* Twikoo评论框高度设置 */
+.el-textarea__inner {
+    min-height: 140px !important;
+  }
+  
