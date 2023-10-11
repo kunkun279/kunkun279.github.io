@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fengyue1.top/2023/01/10/fu-shi/</loc>
+    
+    <lastmod>2023-10-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fengyue1.top/2023/10/10/zhang-liang/</loc>
+    
+    <lastmod>2023-10-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fengyue1.top/2023/10/10/ji-yu-pytorch-de-mao-shu-da-zhan/</loc>
     
-    <lastmod>2023-10-10</lastmod>
+    <lastmod>2023-10-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +31,7 @@
   <url>
     <loc>https://fengyue1.top/2023/10/10/pytorch-xue-xi-bi-ji/</loc>
     
-    <lastmod>2023-10-10</lastmod>
+    <lastmod>2023-10-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,25 +40,7 @@
   <url>
     <loc>https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/</loc>
     
-    <lastmod>2023-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/2023/06/10/zhang-liang/</loc>
-    
-    <lastmod>2023-06-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/2023/04/11/fu-shi/</loc>
-    
-    <lastmod>2023-03-16</lastmod>
+    <lastmod>2023-10-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
