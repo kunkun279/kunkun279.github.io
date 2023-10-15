@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://fengyue1.top/2023/10/15/sherf-generalizable-human-nerf-from-a-single-image/</loc>
+    <lastmod>2023-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  <url>
     <loc>https://fengyue1.top/2023/01/10/fu-shi/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
@@ -14,10 +22,6 @@
   </url>
   <url>
     <loc>https://fengyue1.top/2023/10/10/pytorch-xue-xi-bi-ji/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  <url>
-    <loc>https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   <url>

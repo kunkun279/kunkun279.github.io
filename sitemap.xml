@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fengyue1.top/2023/10/15/sherf-generalizable-human-nerf-from-a-single-image/</loc>
+    
+    <lastmod>2023-10-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/</loc>
+    
+    <lastmod>2023-10-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fengyue1.top/2023/01/10/fu-shi/</loc>
     
     <lastmod>2023-10-11</lastmod>
@@ -30,15 +48,6 @@
   
   <url>
     <loc>https://fengyue1.top/2023/10/10/pytorch-xue-xi-bi-ji/</loc>
-    
-    <lastmod>2023-10-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/</loc>
     
     <lastmod>2023-10-11</lastmod>
     
@@ -301,7 +310,7 @@
 
   <url>
     <loc>https://fengyue1.top/</loc>
-    <lastmod>2023-10-11</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -309,14 +318,14 @@
   
   <url>
     <loc>https://fengyue1.top/tags/KMP/</loc>
-    <lastmod>2023-10-11</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fengyue1.top/tags/string/</loc>
-    <lastmod>2023-10-11</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -325,14 +334,14 @@
   
   <url>
     <loc>https://fengyue1.top/categories/ACM/</loc>
-    <lastmod>2023-10-11</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fengyue1.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2023-10-11</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

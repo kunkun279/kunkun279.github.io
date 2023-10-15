@@ -6,7 +6,7 @@
   <link href="https://fengyue1.top/atom.xml" rel="self"/>
   
   <link href="https://fengyue1.top/"/>
-  <updated>2023-10-11T01:44:03.407Z</updated>
+  <updated>2023-10-12T13:55:54.272Z</updated>
   <id>https://fengyue1.top/</id>
   
   <author>
@@ -17,18 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Real-Time Radiance Fields for Single-Image Portrait View Synthesis</title>
-    <link href="https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/"/>
-    <id>https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/</id>
-    <published>2023-10-10T13:41:03.000Z</published>
-    <updated>2023-10-11T01:44:03.407Z</updated>
+    <title></title>
+    <link href="https://fengyue1.top/2023/10/15/sherf-generalizable-human-nerf-from-a-single-image/"/>
+    <id>https://fengyue1.top/2023/10/15/sherf-generalizable-human-nerf-from-a-single-image/</id>
+    <published>2023-10-15T06:05:14.287Z</published>
+    <updated>2023-10-12T13:55:54.272Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;Real-Time-Radiance-Fields-for-Single-Image-Portrait-View-Synthesis&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;SHERF: Generalizable Human NeRF from a Single Image&lt;/p&gt;
+&lt;p&gt;介绍&lt;/p&gt;
+&lt;p&gt;目标：旨在从 2D 观察中恢复高质量的 3D 人体，避免捕获真实 3D</summary>
         
       
     
@@ -64,27 +66,6 @@
   </entry>
   
   <entry>
-    <title>基于pytorch的猫鼠大战</title>
-    <link href="https://fengyue1.top/2023/10/10/ji-yu-pytorch-de-mao-shu-da-zhan/"/>
-    <id>https://fengyue1.top/2023/10/10/ji-yu-pytorch-de-mao-shu-da-zhan/</id>
-    <published>2023-10-10T13:41:03.000Z</published>
-    <updated>2023-10-11T01:45:03.700Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;基于pytorch的猫鼠大战&quot;&gt;&lt;a href=&quot;#基于pytorch的猫鼠大战&quot; class=&quot;headerlink&quot; title=&quot;基于pytorch的猫鼠大战&quot;&gt;&lt;/a&gt;基于pytorch的猫鼠大战&lt;/h4&gt;&lt;h5 id=&quot;一、前言&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>张量</title>
     <link href="https://fengyue1.top/2023/10/10/zhang-liang/"/>
     <id>https://fengyue1.top/2023/10/10/zhang-liang/</id>
@@ -99,6 +80,48 @@
     <summary type="html">&lt;p&gt;张量是一种特殊的数据结构，是MindSpore网络运算中的基本数据结构。&lt;/p&gt;
 &lt;p&gt;创建张量&lt;/p&gt;
 &lt;p&gt;张量的创建方式有多种，构造张量时，支持传入&lt;code&gt;Tensor&lt;/code&gt;、&lt;code&gt;float&lt;/code&gt;、&lt;code&gt;int&lt;/code&gt;、&lt;cod</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Real-Time Radiance Fields for Single-Image Portrait View Synthesis</title>
+    <link href="https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/"/>
+    <id>https://fengyue1.top/2023/10/10/real-time-radiance-fields-for-single-image-portrait-view-synthesis/</id>
+    <published>2023-10-10T13:41:03.000Z</published>
+    <updated>2023-10-11T11:55:42.014Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;Real-Time-Radiance-Fields-for-Single-Image-Portrait-View-Synthesis&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基于pytorch的猫鼠大战</title>
+    <link href="https://fengyue1.top/2023/10/10/ji-yu-pytorch-de-mao-shu-da-zhan/"/>
+    <id>https://fengyue1.top/2023/10/10/ji-yu-pytorch-de-mao-shu-da-zhan/</id>
+    <published>2023-10-10T13:41:03.000Z</published>
+    <updated>2023-10-11T01:45:03.700Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;基于pytorch的猫鼠大战&quot;&gt;&lt;a href=&quot;#基于pytorch的猫鼠大战&quot; class=&quot;headerlink&quot; title=&quot;基于pytorch的猫鼠大战&quot;&gt;&lt;/a&gt;基于pytorch的猫鼠大战&lt;/h4&gt;&lt;h5 id=&quot;一、前言&quot;&gt;&lt;a</summary>
         
       
     
